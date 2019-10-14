@@ -1,0 +1,161 @@
+body {
+  overflow-x: hidden;
+}
+
+#sidebar-wrapper {
+  width: 13rem;
+  float: left;
+  height: -webkit-fill-available;
+  margin-top: 4%;
+  position: fixed;
+}
+
+#sidebar-wrapper .sidebar-heading {
+  padding: 0.875rem 1.25rem;
+  font-size: 1.2rem;
+  font-style: bold
+}
+
+#sidebar-wrapper .list-group {
+  width: 13rem;
+}
+
+#page-content-wrapper {
+  margin: 10px;
+  margin-right: 4%;
+  margin-left: 10%;
+  padding-top: 4%;
+}
+
+.sidebar-size {
+  height: 30px;
+  width: 30px;
+  display: inline-block; 
+  text-align: center;
+  vertical-align: middle;
+  border-radius: 50%;
+  background: rgb(235, 232, 232);
+  margin: 1px;
+}
+
+.sidebar-size:hover {
+  background: gray;
+  cursor: pointer; 
+}
+
+.active {
+  background: gray;
+  cursor: pointer; 
+}
+  
+#cart-wrapper {    
+  position:fixed;
+  top:7px;
+  right: 10px;
+}
+
+.productList-image {
+  width: 200px;
+  height: 250px;  
+}
+
+.item-column {
+  float: left;
+  padding: 0 10px;
+  margin: 10px;
+}
+
+.item-row {
+  margin: 0px;
+}
+
+/* Style the counter cards */
+.item-card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  padding: 10px;
+  background-color: #f1f1f1;
+}
+
+input[type=range] {
+  -webkit-appearance: none;
+  margin: 10px 0;
+  width: 100%;
+}
+
+input[type=range]::-webkit-slider-runnable-track {
+  width: 100%;
+  height: 8.4px;
+  cursor: pointer;
+  box-shadow: 1px 1px 1px #000000, 0px 0px 1px #0d0d0d;
+  background: #3071a9;
+  border-radius: 1.3px;
+  border: 0.2px solid #010101;
+}
+
+input[type=range]::-webkit-slider-thumb {
+  box-shadow: 1px 1px 1px #000000, 0px 0px 1px #0d0d0d;
+  border: 1px solid #000000;
+  height: 30px;
+  width: 15px;
+  border-radius: 3px;
+  background: #ffffff;
+  cursor: pointer;
+  -webkit-appearance: none;
+  margin-top: -14px;
+}
+
+.header {
+  overflow: hidden;
+  background-color: #17a2b8;
+  position: fixed;
+  width: 100%;
+  margin-top: -1%;
+}
+
+.header a {
+  float: left;
+  color: black;
+  text-align: center;
+  padding: 12px;
+  text-decoration: none;
+  font-size: 18px; 
+  /* line-height: 20px; */
+  cursor: pointer; 
+}
+
+.header a.logo {
+  font-size: 25px;
+  font-weight: bold;
+}
+/* 
+.header a:hover {
+  background-color: aqua;
+} */
+
+.header a.active {
+  background-color: dodgerblue;
+  color: white;
+}
+
+.header-right {
+  float: right;
+}
+
+@media (min-width: 768px) {  
+  #sidebar-wrapper {
+    margin-left: 0;
+    height: -webkit-fill-available;
+  }
+    
+  #page-content-wrapper {
+    min-width: 0;
+  }
+
+  #cart-wrapper {    
+    margin-right: 0;
+  }
+  
+  .item-column {
+    min-width: 23%;
+  }
+}

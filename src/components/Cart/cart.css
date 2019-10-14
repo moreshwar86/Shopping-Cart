@@ -1,0 +1,88 @@
+#shopping-cart {
+  flex-direction: column;
+  background-color: rgb(243,243,243);
+  z-index: 3;
+  position: absolute;
+  width: 100%;
+  padding: 2%;
+  margin-top: 3%
+}
+
+#shopping-cart h2 {
+  text-align: center;
+}
+
+.fa-times-circle {
+  font-size: 1em;
+  cursor: pointer;
+}
+.fa-times-circle:hover {
+  color: rgb(180,220,220);
+}
+
+.count-circle{
+  width: 23px;
+  height: 23px;
+  background: linear-gradient(#fff,#f9f9f9);
+  display: inline-block;
+  border: 1px solid #c2c2c2;
+  cursor: pointer;
+  font-size: 16px;
+  border-radius: 50%;
+  padding-left: 5px;
+}
+
+.empty-cart-img{
+  height: 162px;
+  text-decoration: none;
+  color: inherit;
+  border: none;
+  outline: none;
+}
+
+.empty-cart-container {
+  text-align: center;
+}
+
+.empty-cart {
+  display: inline-block;
+  height: 162px;
+  text-decoration: none;
+  color: inherit;
+  border: none;
+  outline: none;
+}
+h3 {
+  text-align: center;
+}
+
+table ,tr td{
+  
+}
+td {
+  padding: 0 1.5em 0 1.5em;
+}
+
+
+/* ===================== */
+.table>tbody>tr>td, .table>tfoot>tr>td{
+  vertical-align: middle;
+}
+
+@media screen and (max-width: 600px) {
+  table#cart tbody td .form-control{
+  width:20%;
+  display: inline !important;
+}
+
+table#cart thead { display: none; }
+table#cart tbody td { display: block; padding: .6rem; min-width:320px;}
+table#cart tbody tr td:first-child { background: #333; color: #fff; }
+table#cart tbody td:before {
+  content: attr(data-th); font-weight: bold;
+  display: inline-block; width: 8rem;
+}
+table#cart tfoot td{display:block; }
+table#cart tfoot td .btn{display:block;}
+
+}

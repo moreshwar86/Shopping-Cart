@@ -1,0 +1,228 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "title": "Cat Tee Black T-Shirt",
+      "availableSizes": ["S", "XS"],
+      "style": "Black with custom print",
+      "price": 10.9,
+      "currencyId": "USD",
+      "currencyFormat": "$",
+      "isFreeShipping": true,
+      "image" : "https://github.com/jeffersonRibeiro/react-shopping-cart/blob/master/src/static/products/100_1.jpg?raw=true",
+	  "quantityInCart": 0, 
+	  "inCart": false
+    },
+
+    {
+      "id": 2,
+      "title": "Dark Thug Blue-Navy T-Shirt",
+      "availableSizes": ["M"],
+      "style": "Front print and paisley print",
+      "price": 29.45,
+      "currencyId": "USD",
+      "currencyFormat": "$",
+      "isFreeShipping": true,
+	  "image" : "https://github.com/jeffersonRibeiro/react-shopping-cart/blob/master/src/static/products/101_1.jpg?raw=true",
+	  "quantityInCart": 0, 
+	  "inCart": false
+    },
+
+    {
+      "id": 3,
+      "title": "Sphynx Tie Dye Wine T-Shirt",
+      "availableSizes": ["X", "L", "XL"],
+      "style": "Front tie dye print",
+      "price": 9.0,
+      "currencyId": "USD",
+      "currencyFormat": "$",
+      "isFreeShipping": true,
+	  "image" : "https://github.com/jeffersonRibeiro/react-shopping-cart/blob/master/src/static/products/6090484789343891_1.jpg?raw=true",
+	  "quantityInCart": 0, 
+	  "inCart": false
+    },
+
+    {
+      "id": 4,
+      "title": "Skuul",
+      "availableSizes": ["X", "L", "XL", "XXL"],
+      "style": "Black T-Shirt with front print",
+      "price": 14.0,
+      "currencyId": "USD",
+      "currencyFormat": "$",
+      "isFreeShipping": true,
+	  "image" : "https://github.com/jeffersonRibeiro/react-shopping-cart/blob/master/src/static/products/5619496040738316_1.jpg?raw=true",
+	  "quantityInCart": 0, 
+	  "inCart": false
+    },
+
+    {
+      "id": 5,
+      "title": "Wine Skul T-Shirt",
+      "availableSizes": ["X", "L"],
+      "style": "Wine",
+      "price": 13.25,
+      "currencyId": "USD",
+      "currencyFormat": "$",
+      "isFreeShipping": true,
+	  "image" : "https://github.com/jeffersonRibeiro/react-shopping-cart/blob/master/src/static/products/51498472915966370_1.jpg?raw=true",
+	  "quantityInCart": 0, 
+	  "inCart": false
+    },
+
+    {
+      "id": 6,
+      "title": "Short Sleeve T-Shirt",
+      "availableSizes": ["XS", "X", "L", "ML", "XL"],
+      "style": "Grey",
+      "price": 75.0,
+      "currencyId": "USD",
+      "currencyFormat": "$",
+      "isFreeShipping": true,
+	  "image" : "https://github.com/jeffersonRibeiro/react-shopping-cart/blob/master/src/static/products/39876704341265610_1.jpg?raw=true",
+	  "quantityInCart": 0, 
+	  "inCart": false
+    },
+
+    {
+      "id": 7,
+      "title": "Sphynx Tie Dye Grey T-Shirt",
+      "availableSizes": ["X", "L", "XL", "XXL"],
+      "style": "Preta com listras brancas",
+      "price": 10.9,
+      "currencyId": "USD",
+      "currencyFormat": "$",
+      "isFreeShipping": true,
+	  "image" : "https://github.com/jeffersonRibeiro/react-shopping-cart/blob/master/src/static/products/18644119330491310_1.jpg?raw=true",
+	  "quantityInCart": 0, 
+	  "inCart": false
+    },
+
+    {
+      "id": 8,
+      "title": "Danger Knife Grey",
+      "availableSizes": ["X", "L"],
+      "style": "Branco com listras pretas",
+      "price": 14.9,
+      "currencyId": "USD",
+      "currencyFormat": "$",
+      "isFreeShipping": true,
+	  "image" : "https://github.com/jeffersonRibeiro/react-shopping-cart/blob/master/src/static/products/18532669286405344_1.jpg?raw=true",
+	  "quantityInCart": 0, 
+	  "inCart": false
+    },
+
+    {
+      "id": 9,
+      "title": "White DGK Script Tee",
+      "availableSizes": ["X", "L"],
+      "style": "Preto com listras brancas",
+      "price": 14.9,
+      "currencyId": "USD",
+      "currencyFormat": "$",
+      "isFreeShipping": true,
+	  "image" : "https://github.com/jeffersonRibeiro/react-shopping-cart/blob/master/src/static/products/12064273040195392_1.jpg?raw=true",
+	  "quantityInCart": 0, 
+	  "inCart": false
+    },
+
+    {
+      "id": 10,
+      "title": "Born On The Streets",
+      "availableSizes": ["XL"],
+      "style": "Branco com listras pretas",
+      "price": 25.9,
+      "currencyId": "USD",
+      "currencyFormat": "$",
+      "isFreeShipping": false,
+	  "image" : "https://github.com/jeffersonRibeiro/react-shopping-cart/blob/master/src/static/products/11854078013954528_1.jpg?raw=true",
+	  "quantityInCart": 0, 
+	  "inCart": false
+    },
+
+    {
+      "id": 11,
+      "title": "Tso 3D Short Sleeve T-Shirt A",
+      "availableSizes": ["X", "L", "XL"],
+      "style": "Preto",
+      "price": 10.9,
+      "currencyId": "USD",
+      "currencyFormat": "$",
+      "isFreeShipping": false,
+	  "image" : "https://github.com/jeffersonRibeiro/react-shopping-cart/blob/master/src/static/products/11600983276356164_1.jpg?raw=true",
+	  "quantityInCart": 0, 
+	  "inCart": false
+    },
+
+    {
+      "id": 12,
+      "title": "Man Tie Dye Cinza Grey T-Shirt",
+      "availableSizes": ["XL", "XXL"],
+      "style": "Branco",
+      "price": 49.9,
+      "currencyId": "USD",
+      "currencyFormat": "$",
+      "isFreeShipping": true,
+	  "image" : "https://github.com/jeffersonRibeiro/react-shopping-cart/blob/master/src/static/products/11033926921508488_1.jpg?raw=true",
+	  "quantityInCart": 0, 
+	  "inCart": false
+    },
+
+    {
+      "id": 13,
+      "title": "Crazy Monkey Black T-Shirt",
+      "availableSizes": ["S"],
+      "style": "Preto com listras brancas",
+      "price": 22.5,
+      "currencyId": "USD",
+      "currencyFormat": "$",
+      "isFreeShipping": true,
+	  "image" : "https://github.com/jeffersonRibeiro/react-shopping-cart/blob/master/src/static/products/11033926921508488_1.jpg?raw=true",
+	  "quantityInCart": 0, 
+	  "inCart": false
+    },
+
+    {
+      "id": 14,
+      "title": "Tso 3D Black T-Shirt",
+      "availableSizes": ["XL"],
+      "style": "Azul escuro",
+      "price": 18.7,
+      "currencyId": "USD",
+      "currencyFormat": "$",
+      "isFreeShipping": false,
+	  "image" : "https://github.com/jeffersonRibeiro/react-shopping-cart/blob/master/src/static/products/10686354557628304_1.jpg?raw=true",
+	  "quantityInCart": 0, 
+	  "inCart": false
+    },
+
+    {
+      "id": 15,
+      "title": "Crazy Monkey Grey",
+      "availableSizes": ["L", "XL"],
+      "style": "",
+      "price": 100,
+      "currencyId": "USD",
+      "currencyFormat": "$",
+      "isFreeShipping": true,
+	  "image" : "https://github.com/jeffersonRibeiro/react-shopping-cart/blob/master/src/static/products/10547961582846888_1.jpg?raw=true",
+	  "quantityInCart": 0, 
+	  "inCart": false
+    },
+
+    {
+      "id": 16,
+      "title": "On The Streets Black T-Shirt",
+      "availableSizes": ["L", "XL"],
+      "style": "",
+      "price": 49.0,
+      "currencyId": "USD",
+      "currencyFormat": "$",
+      "isFreeShipping": true,
+	  "image" : "https://github.com/jeffersonRibeiro/react-shopping-cart/blob/master/src/static/products/10412368723880252_1.jpg?raw=true",
+	  "quantityInCart": 0, 
+	  "inCart": false
+    }
+  ],
+  "sizes":["S", "XS", "X", "M", "L", "XL", "XXL"]
+}
